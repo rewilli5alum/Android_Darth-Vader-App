@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="161dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pitch (0-1000):"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/pitchText"/>
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/pitchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:max="2000" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speed (1-10):"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/speedText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/speedBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:max="10"
+            android:progress="5" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treble (0-20):"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:id="@+id/trebleText"/>
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/trebleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:max="20"
+            android:progress="7"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bass (0-20):"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/bassText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/bassBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:max="20"
+            android:progress="16" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overdrive (0-100):"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/overdriveText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/overdriveBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:max="100"
+            android:progress="27" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/loudnessText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/echoInText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/echoOutText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/echoDelayText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:id="@+id/echoDecayText"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

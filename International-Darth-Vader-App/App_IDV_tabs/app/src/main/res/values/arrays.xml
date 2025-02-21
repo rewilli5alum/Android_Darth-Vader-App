@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filters">
+        <item>Darth Vader</item>
+        <item>C-3PO</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="dummyAvails">
+        <item>Clip1</item>
+        <item>Clip2</item>
+        <item>Clip3</item>
+        <item>Clip4</item>
+        <item>Clip5</item>
+        <item>Clip6</item>
+        <item>Clip7</item>
+        <item>Clip8</item>
+    </string-array>
+</resources>

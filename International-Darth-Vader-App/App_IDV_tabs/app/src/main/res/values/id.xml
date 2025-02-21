@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="titleView" />
+    <item type="id" name="titleEditText" />
+    <item type="id" name="tagView" />
+    <item type="id" name="tagEditText" />
+    <item type="id" name="explictView" />
+    <item type="id" name="explicitCheckBox" />
+    <item type="id" name="filterView" />
+    <item type="id" name="filterSwitch" />
+    <item type="id" name="filterSpinner" />
+    <item type="id" name="recordButton" />
+    <item type="id" name="previewButton" />
+    <item type="id" name="uploadButton" />
+    <item type="id" name="refreshButton" />
+    <item type="id" name="playButton" />
+    <item type="id" name="availClipList" />
+    instructionsBT
+</resources>
